@@ -66,8 +66,8 @@ See [this](/docs/installation-options.md) page for options on how to install Ant
 > [!NOTE]
 > We are still in the process of knocking out some bugs. You can track the known issues [here](https://github.com/Screenly/Anthias/issues). You can also check the discussions in the [Anthias forums](https://forums.screenly.io).
 
-> This project includes a custom installation script that extends the standard Anthias installer with additional setup steps for Raspberry Pi users.
-> Use this script if your Wi-Fi is blocked after Anthias installation or if you're customizing Anthias for headless or offline deployments.
+* This project includes a custom installation script that extends the standard Anthias installer with additional setup steps for Raspberry Pi users.
+* Use this script if your Wi-Fi is blocked after Anthias installation or if you're customizing Anthias for headless or offline deployments.
 
 📌 What It Does:
 * Installs Screenly Anthias (official installer)
@@ -75,17 +75,17 @@ See [this](/docs/installation-options.md) page for options on how to install Ant
 * Creates and enables a systemd service for Wi-Fi recovery
 * Prompts the user for a reboot after installation
 
-📂 Location:
-> Go to 
-* cd ~/Documents/GitHub/Anthias-Digital-Signage/scripts
+> [📂 Location:]
+* Go to 
+> cd ~/Documents/GitHub/Anthias-Digital-Signage/scripts
 
-> Make the script executable (only once):
-* chmod +x custom-anthias-install.sh
+* Make the script executable (only once):
+> chmod +x custom-anthias-install.sh
 
-> Run the script:
-* ./custom-anthias-install.sh
+* Run the script:
+> ./custom-anthias-install.sh
 
-> After the script finishes, you'll be prompted to reboot. Choose Y to reboot or N to skip.
+* After the script finishes, you'll be prompted to reboot. Choose Y to reboot or N to skip.
 
 
 ## :zap: Quick Links
