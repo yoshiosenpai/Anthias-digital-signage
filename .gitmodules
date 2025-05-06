@@ -1,0 +1,3 @@
+[submodule "Anthias"]
+	path = Anthias
+	url = https://github.com/Screenly/Anthias.git
